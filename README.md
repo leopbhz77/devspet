@@ -1,4 +1,11 @@
 # devspet
 
 ### Requisitos Globais
-nodemon typescript ts-node
+`yardn --global add nodemon typescript ts-node`
+
+### Pacotes
+`yarn`
+
+### Executar 
+`yarn start-dev`
+
