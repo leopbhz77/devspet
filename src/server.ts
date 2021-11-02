@@ -16,4 +16,8 @@ server.use(express.static(path.join(__dirname, '../public')))
 //Rotas
 server.use(mainRoutes)
 
+server.use((req, res)=>{
+    res.send('Pagina nao encontrada')
+})
+
 server.listen(process.env.PORT)
